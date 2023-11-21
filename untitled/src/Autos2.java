@@ -26,6 +26,10 @@ public class Autos2 {
     public int getCosto(){
         return costo;
     }
+    public  int getKilometrage(){
+        return kilometrage;
+    }
+
     public String getAgencia(){
 
         return  Agencia;
