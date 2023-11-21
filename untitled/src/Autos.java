@@ -1,5 +1,4 @@
-
-
+import java.util.Scanner ;
 
 public class Autos {
     public static void main(String[] args) {
@@ -74,5 +73,22 @@ public class Autos {
         int suma = auto1.getAnios() + auto2.getAnios() + auto3.getAnios();
 
         System.out.printf("La suma de los años de los autos es de: %d", suma);
+
+        auto1.setAnios(2000);
+        auto2.setAnios(2005);
+
+        auto1.setModelo("Nissan");
+        auto1.setModelo("Autocab");
+        System.out.println("------------------------");
+        System.out.println("Valores nuevos");
+
+
+        System.out.println("Ingrese el modelo del auto ");
+        Scanner leer=new Scanner(System.in);
+
+        String newauto2=leer.next();
+        auto1.setModelo(newauto2);
+        System.out.println("Nuevo Modelo: "+auto1.getModelo());
+
     }
 }
