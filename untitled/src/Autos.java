@@ -42,43 +42,35 @@ public class Autos {
 
 
         System.out.println("------------------------");
-        System.out.println(auto1.getMarca());
 
-        System.out.println(auto2.getMarca());
-
-        System.out.println(auto3.getMarca());
-
+        System.out.println("Marca:"+auto1.getMarca());
+        System.out.println("Años:"+auto1.getAnios());
+        System.out.println("Agencia:"+auto1.getAgencia());
+        System.out.println("Costo:"+auto1.getCosto());
+        System.out.println("Color:"+auto1.getColor());
+        System.out.println("Modelo:"+auto1.getModelo());
+        System.out.println("Velocida:"+auto1.getVelocidad());
+        System.out.println("Kilometraje:"+auto1.getKilometrage());
         System.out.println("------------------------");
-
-        System.out.println(auto1.getAnios());
-        System.out.println(auto2.getAnios());
-        System.out.println(auto3.getAnios());
+        System.out.println("Marca:"+auto2.getMarca());
+        System.out.println("Años:"+auto2.getAnios());
+        System.out.println("Agencia:"+auto2.getAgencia());
+        System.out.println("Costo:"+auto2.getCosto());
+        System.out.println("Color:"+auto2.getColor());
+        System.out.println("Modelo:"+auto2.getModelo());
+        System.out.println("Velocida:"+auto2.getVelocidad());
+        System.out.println("Kilometraje:"+auto2.getKilometrage());
         System.out.println("------------------------");
-        System.out.println(auto1.getAgencia());
-        System.out.println(auto2.getAgencia());
-        System.out.println(auto3.getAgencia());
+        System.out.println("Marca:"+auto3.getMarca());
+        System.out.println("Años:"+auto3.getAnios());
+        System.out.println("Agencia:"+auto3.getAgencia());
+        System.out.println("Costo:"+auto3.getCosto());
+        System.out.println("Color:"+auto3.getColor());
+        System.out.println("Modelo:"+auto3.getModelo());
+        System.out.println("Velocida:"+auto3.getVelocidad());
+        System.out.println("Kilometraje:"+auto3.getKilometrage());
         System.out.println("------------------------");
-        System.out.println(auto1.getCosto());
-        System.out.println(auto2.getCosto());
-        System.out.println(auto3.getCosto());
-        System.out.println("------------------------");
-        System.out.println(auto1.getColor());
-        System.out.println(auto2.getColor());
-        System.out.println(auto3.getColor());
-        System.out.println("------------------------");
-        System.out.println(auto1.getModelo());
-        System.out.println(auto2.getModelo());
-        System.out.println(auto3.getModelo());
-        System.out.println("------------------------");
-        System.out.println(auto1.getVelocidad());
-        System.out.println(auto2.getVelocidad());
-        System.out.println(auto3.getVelocidad());
-        System.out.println("------------------------");
-        System.out.println(auto1.getKilometrage());
-        System.out.println(auto2.getKilometrage());
-        System.out.println(auto3.getKilometrage());
-        System.out.println("------------------------");
-        System.out.println("SUma de los años: ");
+        System.out.println("Suma de los años: ");
         int suma = auto1.getAnios() + auto2.getAnios() + auto3.getAnios();
 
         System.out.printf("La suma de los años de los autos es de: %d", suma);
