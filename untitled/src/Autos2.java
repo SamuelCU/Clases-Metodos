@@ -6,7 +6,7 @@ public class Autos2 {
     public int velocidad;
     public int kilometrage;
 
-    public int años;
+    public int anios;
 
     public String color;
 
@@ -38,8 +38,8 @@ public class Autos2 {
 
         return color;
     }
-    public int getAños(){
-        return años;
+    public int getAnios(){
+        return anios;
     }
 
     public void  setModelo(String newmodelo){
@@ -60,8 +60,8 @@ public class Autos2 {
     public void  setKilometrage(int newkilometrage){
         this.kilometrage=newkilometrage;
     }
-    public void  setAños(int newaños){
-        this.años=newaños;
+    public void  setAnios(int newanios){
+        this.anios=newanios;
     }
 
 }

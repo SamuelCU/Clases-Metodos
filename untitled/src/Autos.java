@@ -13,9 +13,9 @@ public class Autos {
         auto2 = new Autos2("Nissan");
         auto3 = new Autos2("Toyota");
 
-        auto1.setAños(2010);
-        auto2.setAños(2023);
-        auto3.setAños(2004);
+        auto1.setAnios(2010);
+        auto2.setAnios(2023);
+        auto3.setAnios(2004);
 
         auto1.setAgencia("ProAuto");
         auto2.setAgencia("Nissan");
@@ -51,9 +51,9 @@ public class Autos {
 
         System.out.println("------------------------");
 
-        System.out.println(auto1.getAños());
-        System.out.println(auto2.getAños());
-        System.out.println(auto3.getAños());
+        System.out.println(auto1.getAnios());
+        System.out.println(auto2.getAnios());
+        System.out.println(auto3.getAnios());
         System.out.println("------------------------");
         System.out.println(auto1.getAgencia());
         System.out.println(auto2.getAgencia());
@@ -80,7 +80,7 @@ public class Autos {
         System.out.println(auto3.getKilometrage());
         System.out.println("------------------------");
         System.out.println("SUma de los años: ");
-        int suma = auto1.getAños() + auto2.getAños() + auto3.getAños();
+        int suma = auto1.getAnios() + auto2.getAnios() + auto3.getAnios();
 
         System.out.printf("La suma de los años de los autos es de: %d", suma);
     }
