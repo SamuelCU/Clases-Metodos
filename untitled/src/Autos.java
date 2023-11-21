@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Autos {
@@ -39,38 +41,47 @@ public class Autos {
         auto2.setVelocidad(200);
         auto3.setVelocidad(250);
 
+
+        System.out.println("------------------------");
         System.out.println(auto1.getMarca());
+
         System.out.println(auto2.getMarca());
+
         System.out.println(auto3.getMarca());
+
+        System.out.println("------------------------");
 
         System.out.println(auto1.getAños());
         System.out.println(auto2.getAños());
         System.out.println(auto3.getAños());
-
+        System.out.println("------------------------");
         System.out.println(auto1.getAgencia());
         System.out.println(auto2.getAgencia());
         System.out.println(auto3.getAgencia());
-
+        System.out.println("------------------------");
         System.out.println(auto1.getCosto());
         System.out.println(auto2.getCosto());
         System.out.println(auto3.getCosto());
-
+        System.out.println("------------------------");
         System.out.println(auto1.getColor());
         System.out.println(auto2.getColor());
         System.out.println(auto3.getColor());
-
+        System.out.println("------------------------");
         System.out.println(auto1.getModelo());
         System.out.println(auto2.getModelo());
         System.out.println(auto3.getModelo());
-
+        System.out.println("------------------------");
         System.out.println(auto1.getVelocidad());
         System.out.println(auto2.getVelocidad());
         System.out.println(auto3.getVelocidad());
-
+        System.out.println("------------------------");
         System.out.println(auto1.getKilometrage());
         System.out.println(auto2.getKilometrage());
         System.out.println(auto3.getKilometrage());
+        System.out.println("------------------------");
+        System.out.println("SUma de los años: ");
+        int suma = auto1.getAños() + auto2.getAños() + auto3.getAños();
 
-
+        System.out.printf("La suma de los años de los autos es de: %d", suma);
     }
 }
